@@ -1,0 +1,18 @@
+main {
+    padding: 2rem;
+    display: grid;
+    place-content: center;
+    gap: 1rem;
+}
+
+.movies-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    list-style-type: none;
+}
+
+.card {
+    display: grid;
+    place-content: center;
+}
